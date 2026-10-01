@@ -1,0 +1,36 @@
+{
+  "manifest_version": 3,
+  "name": "WA Direct Sender (No Limits)",
+  "version": "1.0.0",
+  "description": "Custom, private WhatsApp Web messaging assistant with CSV support, random delays, and no arbitrary limits.",
+  "permissions": [
+    "storage"
+  ],
+  "host_permissions": [
+    "https://web.whatsapp.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://web.whatsapp.com/*"
+      ],
+      "js": [
+        "lib/xlsx.full.min.js",
+        "content.js"
+      ],
+      "css": [
+        "style.css"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_title": "WA Direct Sender"
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
