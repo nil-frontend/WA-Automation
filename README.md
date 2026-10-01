@@ -76,20 +76,20 @@ git clone https://github.com/nil-frontend/WA-Automation.git
 ## 💡 Quick Start Tutorial
 
 ```mermaid
-graph TD
-    A[Open WhatsApp Web] --> B[Click 'WA Sender' Top Button]
-    B --> C{Choose Input Mode}
-    C -->|Excel / CSV| D[Upload .xlsx or .csv & Map Column]
-    C -->|Manual| E[Paste Country Coded Numbers]
-    D --> F[Draft Message with {Variables}]
+flowchart TD
+    A["Open WhatsApp Web"] --> B["Click 'WA Sender' Top Button"]
+    B --> C{"Choose Input Mode"}
+    C -->|"Excel / CSV"| D["Upload .xlsx or .csv & Map Column"]
+    C -->|"Manual List"| E["Paste Country Coded Numbers"]
+    D --> F["Draft Message with Personal Variables"]
     E --> F
-    F --> G{Optional Attachment?}
-    G -->|Yes| H[Select My Chat Media or File Upload]
-    G -->|No| I[Set Human Delay 5-15s]
+    F --> G{"Optional Attachment?"}
+    G -->|"Yes"| H["Select 'From My Chat' or Device Upload"]
+    G -->|"No"| I["Set Human Randomized Delay (5-15s)"]
     H --> I
-    I --> J[Click Start Sending]
-    J --> K[Top Warning Banner Appears: Hands Off!]
-    K --> L[Automatic Dispatch & Real-Time Logs]
+    I --> J["Click Start Sending"]
+    J --> K["Top Warning Banner Appears: Hands Off!"]
+    K --> L["Automatic Dispatch & Real-Time Logs"]
 ```
 
 1. **Upload Contacts:** Switch to the **Excel / CSV Upload** tab, drag and drop your `.xlsx` or `.csv` spreadsheet.
