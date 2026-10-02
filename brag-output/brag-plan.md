@@ -13,7 +13,7 @@ Split-screen visual with high contrast: an obnoxious red "$29.99/mo subscription
 
 ## Key moments (the middle)
 - **Moment 1: Instant Excel & CSV Upload with Smart Preview (3–7s)**
-  Drag-and-drop `.xlsx` sheet into the on-page drawer. Auto-detects phone columns and shows real-time monospace preview badges (`[918653773410]`, `[919876543210]`) + dynamic variable insertion `{Name}`.
+  Drag-and-drop `.xlsx` sheet into the on-page drawer. Auto-detects phone columns and shows real-time monospace preview badges (`[919876543210]`, `[918765432109]`, `[917654321098]`) + dynamic variable insertion `{Name}`.
 - **Moment 2: Dual Media Sharing with Zero "Forwarded" Tag (7–12s)**
   Send images, PDFs, or documents seamlessly without looking like cheap spam—no "Forwarded" badge.
 - **Moment 3: Anti-Ban Protection & Top Safety Warning Banner (12–16s)**
@@ -57,7 +57,7 @@ Official GitHub release call-to-action: `github.com/nil-frontend/WA-Automation` 
 - **Transition:** Slide up into the drawer interface → Scene 3.
 
 ### Scene 3 — Excel / CSV & Dynamic Variables (7.0s – 11.5s)
-- **Visual:** Dropping `contacts.xlsx`. Columns auto-populate with the live 4-number preview badges `[918653773410]`. Dynamic variable chip `{Name}` inserted into message template.
+- **Visual:** Dropping `contacts.xlsx`. Columns auto-populate with the live 4-number preview badges `[919876543210]`. Dynamic variable chip `{Name}` inserted into message template.
 - **Audio intent:** Rhythmic pacing, crisp click accents.
 - **Transition:** Smooth pan to chat media delivery → Scene 4.
 
