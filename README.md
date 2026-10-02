@@ -7,7 +7,10 @@
 
 A powerful, private, and completely free Chrome extension for **WhatsApp Web automation**. Built with **Manifest V3**, **vanilla JavaScript**, and client-side Excel/CSV parsing. 
 
-> **Zero arbitrary quotas. Zero message limits. No monthly subscriptions. 100% Private (No data leaves your computer).**
+> **Zero arbitrary quotas. Zero message limits. No monthly subscriptions. 100% Private (No data leaves your computer).**  
+>  
+> *"Why pay if I could build it? That's the fun of being a developer!"*  
+> 📢 *Planning to launch or share this project? See the complete [Promotion & Social Launch Plan](PROMOTION_PLAN.md).*
 
 ---
 
